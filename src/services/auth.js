@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 
-const API_URL = 'http://localhost:3001/api/auth';
+const API_URL = 'https://backend07.onrender.com/api/auth';
 
 axios.defaults.withCredentials = true;
 
