@@ -1,0 +1,32 @@
+# Node.js
+npm-debug.log
+.env
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Sequelize (si usas migrations o seeders)
+migrations/
+seeders/
+
+# React frontend
+node_modules/
+
+# Optional: macOS .AppleDouble files
+.AppleDouble
+
+# Optional: archivo de estado de lockfile yarn/npm
+package-lock.json
+yarn.lock
